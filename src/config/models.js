@@ -1,0 +1,6 @@
+import sequelize from '../models/connect.js';
+import initModels from '../models/init-models.js';
+
+const models = initModels(sequelize);
+
+export default models;
